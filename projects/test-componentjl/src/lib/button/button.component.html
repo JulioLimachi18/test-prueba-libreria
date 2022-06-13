@@ -1,0 +1,20 @@
+<ng-template #component>
+    <ng-content></ng-content>
+  </ng-template>
+  <ng-container *ngIf="!href">
+    <button [disabled]="disabled" (click)="handleClick()" [class]="getClasses()">
+      <ng-container *ngTemplateOutlet="component"></ng-container>
+    </button>
+  </ng-container>
+  <ng-container *ngIf="href">
+    <a
+      [href]="href"
+      [rel]="rel"
+      [target]="target"
+      [class]="getClasses()"
+      (click)="handleClick()"
+    >
+      <ng-container *ngTemplateOutlet="component"></ng-container>
+    </a>
+  </ng-container>
+  

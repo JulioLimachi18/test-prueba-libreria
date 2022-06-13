@@ -19,7 +19,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "test-componentjl": [
+        "dist/test-componentjl/test-componentjl",
+        "dist/test-componentjl"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

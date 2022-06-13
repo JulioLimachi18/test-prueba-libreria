@@ -1,0 +1,24 @@
+{
+  "name": "test-componentjl",
+  "version": "0.0.1",
+  "description": "Prueba de concepto",
+  "keywords": ["test","component"],
+  "homepage": "https://github.com/JulioLimachi18/test-prueba-libreria",
+  "bugs": {
+    "url": "https://github.com/JulioLimachi18/test-prueba-libreria/issues",
+    "email": "julio.limachi3@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Julio Limachi",
+    "email": "julio.limachi3@gmail.com",
+    "url": "https://github.com/JulioLimachi18/test-prueba-libreria"
+  },
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

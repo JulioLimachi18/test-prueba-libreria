@@ -1,0 +1,30 @@
+:host {
+  display: contents;
+}
+
+.jl-card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    border-radius: 4px;
+  
+    min-height: 320px;
+    min-width: 320px;
+  
+    box-sizing: border-box;
+    display: inline-flex;
+    cursor: pointer;
+  
+    &--title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  
+    &--subtitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
